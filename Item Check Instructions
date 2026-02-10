@@ -1,0 +1,11 @@
+### The 3-Step Process for Adding a New Item Check
+
+1.  **Define the Location (`Locations.py`)**
+    *   Give the new check a unique name and ID.
+
+2.  **Place the Location (`Regions.py`)**
+    *   Put the new check into the region where it exists.
+
+3.  **Set its Rule (`Rules.py`)**
+    *   Define how the player can access it.
+    *   *(Hint: For many checks, this rule is very simple if just reaching the region is the only requirement.)*
